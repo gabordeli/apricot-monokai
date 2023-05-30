@@ -1,10 +1,19 @@
 {
   "name": "apricot-monokai",
-  "displayName": "apricot-monokai",
-  "description": "Apricot monokai theme",
+  "displayName": "Apricot monokai theme",
+  "description": "My version of the Apricot monokai theme.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.78.0"
+  },
+  "icon": "images/apricot.png",
+  "galleryBanner": {
+    "color": "#C80000",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabordeli/apricot-monokai.git"
   },
   "categories": [
     "Themes"
@@ -12,7 +21,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Apricot monokai theme for Codium",
+        "label": "Apricot monokai theme",
         "uiTheme": "vs-dark",
         "path": "./themes/editor-color-theme.json"
       }
