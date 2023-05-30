@@ -248,7 +248,8 @@
 			"name": "Attribute",
 			"scope": [
 				"entity.other.attribute-name.class.css",
-				"punctuation.definition.entity.css"
+				"punctuation.definition.entity.css",
+				"entity.other.attribute-name.id.css"
 			],
 			"settings": {
 				"foreground": "#e70e5e"
@@ -300,7 +301,8 @@
 		{
 			"name": "Event",
 			"scope": [
-				"entity.other.attribute-name.pseudo-class.css"
+				"entity.other.attribute-name.pseudo-class.css",
+				"support.type.property-name.media.css"
 			],
 			"settings": {
 				"foreground": "#66d9ef"
