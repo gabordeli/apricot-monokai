@@ -169,7 +169,9 @@
 				"meta.function.parameter.no-default.php",
 				"punctuation.definition.variable.php",
 				"variable.other.class.php",
-				"variable.other.php"
+				"variable.other.php",
+				"variable.language.this.php",
+				"variable.other.global.safer.php"
 			],
 			"settings": {
 				"foreground": "#fd9721"
