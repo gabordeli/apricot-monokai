@@ -3,6 +3,11 @@
   "displayName": "Apricot monokai theme",
   "description": "My version of the Apricot monokai theme.",
   "version": "0.0.1",
+  "publisher": "gabordeli",
+  "author": {
+    "name": "Gabor Deli",
+    "email": "gabor.deli@gmail.com"
+  },
   "engines": {
     "vscode": "^1.78.0"
   },
