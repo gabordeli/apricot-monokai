@@ -1,0 +1,21 @@
+{
+  "name": "apricot-monokai",
+  "displayName": "apricot-monokai",
+  "description": "Apricot monokai theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Apricot monokai theme for Codium",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Apricot monokai theme for Codium-color-theme.json"
+      }
+    ]
+  }
+}
