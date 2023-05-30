@@ -2,8 +2,8 @@
 publish:
 
 	@echo "Publishing to https://marketplace.visualstudio.com/"
-	vsce publish
-	vsce package patch
+	vsce publish patch
+	vsce package
 	@echo "DONE!"
 
 	@echo  "Publishing to https://open-vsx.org/user-settings/extensions"
