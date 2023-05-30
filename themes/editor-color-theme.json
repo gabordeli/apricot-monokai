@@ -219,5 +219,26 @@
 			}
 		},
 
+		//	JSON
+		{
+			"name": "Property name",
+			"scope": [
+				"support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#99cc33"
+			}
+		},
+		{
+			"name": "Property name begin-end",
+			"scope": [
+				"punctuation.support.type.property-name.begin.json",
+				"punctuation.support.type.property-name.end.json"
+			],
+			"settings": {
+				"foreground": "#f8f8f2"
+			}
+		},
+		
 	]
 }
