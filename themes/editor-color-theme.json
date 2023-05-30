@@ -7,6 +7,8 @@
 		"tab.activeForeground": "#f8f8f2"
 	},
 	"tokenColors": [
+
+		//	Basic
 		{
 			"name": "all",
 			"scope": [
@@ -24,7 +26,6 @@
 				"comment.block"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#787360"
 			}
 		},
@@ -78,30 +79,18 @@
 			}
 		},
 
-
-
-
-
+		//	PHP support
 		{
 			"name": "Comment",
 			"scope": [
 				"comment.line",
 				"punctuation.definition.comment.php",
-				"comment.block.documentation.phpdoc.php"
+				"comment.block.documentation.phpdoc.php",
+				"comment.block.php"
 			],
 			"settings": {
 				"foreground": "#787360",
 				"fontStyle": "",
-			}
-		},
-		{
-			"name": "Comment block",
-			"scope": [
-				"punctuation.definition.comment.php",
-				"comment.block.documentation.phpdoc.php"
-			],
-			"settings": {
-				"fontStyle": "italic"
 			}
 		},
 		{
