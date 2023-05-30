@@ -1,0 +1,190 @@
+{
+	"name": "Apricot monokai theme for Codium",
+	"colors": {
+		"editor.background": "#272822",
+		"editor.foreground": "#f8f8f2",
+		"editor.lineHighlightBackground": "#323232",
+		"tab.activeForeground": "#f8f8f2"
+	},
+	"tokenColors": [
+		{
+			"name": "all",
+			"scope": [
+				"source"
+			],
+			"settings": {
+				"foreground": "#f8f8f2"
+			}
+		},
+		{
+			"name": "Comment block",
+			"scope": [
+				"comment.line",
+				"punctuation.definition.comment",
+				"comment.block"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#787360"
+			}
+		},
+		{
+			"name": "public, static",
+			"scope": [
+				"storage",
+				"keyword",
+				"constant"
+			],
+			"settings": {
+				"foreground": "#e70e5e"
+			}
+		},
+		{
+			"name": "function name",
+			"scope": [
+				"entity.name.function",
+				"support.function"
+			],
+			"settings": {
+				"foreground": "#99cc33"
+			}
+		},
+		{
+			"name": "constants",
+			"scope": [
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#c256f1"
+			}
+		},
+		{
+			"name": "parameter",
+			"scope": [
+				"variable.parameter",
+				"variable.other.readwrite"
+			],
+			"settings": {
+				"foreground": "#fd9721"
+			}
+		},
+		{
+			"name": "string",
+			"scope": [
+				"string.quoted"
+			],
+			"settings": {
+				"foreground": "#ffd230"
+			}
+		},
+
+
+
+
+
+		{
+			"name": "Comment",
+			"scope": [
+				"comment.line",
+				"punctuation.definition.comment.php",
+				"comment.block.documentation.phpdoc.php"
+			],
+			"settings": {
+				"foreground": "#787360",
+				"fontStyle": "",
+			}
+		},
+		{
+			"name": "Comment block",
+			"scope": [
+				"punctuation.definition.comment.php",
+				"comment.block.documentation.phpdoc.php"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Class, interface, namespaces, etc",
+			"scope": [
+				"entity.name.type.trait.php",
+				"entity.name.type.namespace.php",
+				"support.class.php",
+				"support.other.namespace.php",
+				"entity.name.type.class.php",
+				"constant.other.php",
+				"entity.other.inherited-class.php",
+				"support.constant.core.php",
+				"support.class.exception.php",
+				"entity.name.type.interface.php"
+			],
+			"settings": {
+				"foreground": "#66d9ef"
+			}
+		},
+		{
+			"name": "Keywords",
+			"scope": [
+				"storage.modifier",
+				"storage.type",
+				"keyword.control",
+				"keyword.operator",
+				"keyword.other.new.php",
+				"keyword.other.namespace.php",
+				"keyword.other.type.php",
+				"keyword.other.use.php",
+				"punctuation.section.embedded.begin.php",
+				"keyword.other",
+				"constant.language.php",
+			],
+			"settings": {
+				"foreground": "#e70e5e"
+			}
+		},
+		{
+			"name": "Function, methods",
+			"scope": [
+				"entity.name.function",
+				"support.function"
+			],
+			"settings": {
+				"foreground": "#99cc33"
+			}
+		},
+		{
+			"name": "Constants",
+			"scope": [
+				"constant.numeric.decimal.php",
+				"constant.other.class.php"
+			],
+			"settings": {
+				"foreground": "#c256f1",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Separator",
+			"scope": [
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.variable.php",
+				"meta.function-call.invoke.php"
+			],
+			"settings": {
+				"foreground": "#f8f8f2"
+			}
+		},
+		{
+			"name": "Parameter",
+			"scope": [
+				"meta.function.parameter.typehinted.php",
+				"meta.function.parameter.no-default.php",
+				"punctuation.definition.variable.php",
+				"variable.other.class.php",
+				"variable.other.php"
+			],
+			"settings": {
+				"foreground": "#fd9721"
+			}
+		}
+	]
+}

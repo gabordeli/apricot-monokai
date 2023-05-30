@@ -14,7 +14,7 @@
       {
         "label": "Apricot monokai theme for Codium",
         "uiTheme": "vs-dark",
-        "path": "./themes/Apricot monokai theme for Codium-color-theme.json"
+        "path": "./themes/editor-color-theme.json"
       }
     ]
   }
