@@ -2,7 +2,7 @@
   "name": "apricot-monokai",
   "displayName": "Apricot monokai theme",
   "description": "My version of the Apricot monokai theme.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "gabordeli",
   "author": {
     "name": "Gabor Deli",
@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/gabordeli/apricot-monokai/issues",
     "email": "gabor.deli@gmail.com"
-  },  
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/gabordeli/apricot-monokai.git"
