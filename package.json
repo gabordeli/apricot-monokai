@@ -8,9 +8,14 @@
   },
   "icon": "images/apricot.png",
   "galleryBanner": {
-    "color": "#C80000",
+    "color": "#ffb20d",
     "theme": "dark"
   },
+  "license": "https://github.com/gabordeli/apricot-monokai/blob/master/LICENSE",
+  "bugs": {
+    "url": "https://github.com/gabordeli/apricot-monokai/issues",
+    "email": "gabor.deli@gmail.com"
+  },  
   "repository": {
     "type": "git",
     "url": "https://github.com/gabordeli/apricot-monokai.git"
