@@ -307,6 +307,34 @@
 			"settings": {
 				"foreground": "#66d9ef"
 			}
-		}		
+		},
+
+
+		//	Makefile
+		{
+			"scope": [
+				"keyword.control.@.makefile",
+				"source.makefile"
+			],
+			"settings": {
+				"foreground": "#f8f8f2"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function.target.makefile",
+				"meta.scope.prerequisites.makefile"
+			],
+			"settings": {
+				"foreground": "#FF0000"
+			}
+		},
+		{
+			"scope": [
+			],
+			"settings": {
+				"foreground": "#FF0000"
+			}
+		}
 	]
 }
