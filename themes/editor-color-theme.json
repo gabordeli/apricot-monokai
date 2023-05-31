@@ -10,7 +10,6 @@
 
 		//	Basic
 		{
-			"name": "all",
 			"scope": [
 				"source"
 			],
@@ -19,7 +18,6 @@
 			}
 		},
 		{
-			"name": "Comment block",
 			"scope": [
 				"comment.line",
 				"punctuation.definition.comment",
@@ -30,7 +28,6 @@
 			}
 		},
 		{
-			"name": "public, static",
 			"scope": [
 				"storage",
 				"keyword",
@@ -41,7 +38,6 @@
 			}
 		},
 		{
-			"name": "function name",
 			"scope": [
 				"entity.name.function",
 				"support.function"
@@ -51,7 +47,6 @@
 			}
 		},
 		{
-			"name": "constants",
 			"scope": [
 				"constant.numeric"
 			],
@@ -60,7 +55,6 @@
 			}
 		},
 		{
-			"name": "parameter",
 			"scope": [
 				"variable.parameter",
 				"variable.other.readwrite"
@@ -70,7 +64,6 @@
 			}
 		},
 		{
-			"name": "string",
 			"scope": [
 				"string.quoted"
 			],
@@ -81,7 +74,6 @@
 
 		//	PHP support
 		{
-			"name": "Comment",
 			"scope": [
 				"comment.line",
 				"punctuation.definition.comment.php",
@@ -94,7 +86,6 @@
 			}
 		},
 		{
-			"name": "Class, interface, namespaces, etc",
 			"scope": [
 				"entity.name.type.trait.php",
 				"entity.name.type.namespace.php",
@@ -112,7 +103,6 @@
 			}
 		},
 		{
-			"name": "Keywords",
 			"scope": [
 				"storage.modifier",
 				"storage.type",
@@ -131,7 +121,6 @@
 			}
 		},
 		{
-			"name": "Function, methods",
 			"scope": [
 				"entity.name.function",
 				"support.function"
@@ -141,7 +130,6 @@
 			}
 		},
 		{
-			"name": "Constants",
 			"scope": [
 				"constant.numeric.decimal.php",
 				"constant.other.class.php"
@@ -152,7 +140,6 @@
 			}
 		},
 		{
-			"name": "Separator",
 			"scope": [
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.variable.php",
@@ -163,7 +150,6 @@
 			}
 		},
 		{
-			"name": "Parameter",
 			"scope": [
 				"meta.function.parameter.typehinted.php",
 				"meta.function.parameter.no-default.php",
@@ -180,7 +166,6 @@
 
 		//	XML support
 		{
-			"name": "Entity",
 			"scope": [
 				"entity.name.tag.xml",
 				"punctuation.definition.tag.xml",
@@ -192,7 +177,6 @@
 			}
 		},
 		{
-			"name": "Attribute",
 			"scope": [
 				"entity.other.attribute-name.localname.xml",
 				"entity.other.attribute-name.xml"
@@ -202,7 +186,6 @@
 			}
 		},
 		{
-			"name": "Namespace",
 			"scope": [
 				"entity.other.attribute-name.namespace.xml"
 			],
@@ -211,7 +194,6 @@
 			}
 		},
 		{
-			"name": "Separator",
 			"scope": [
 				"punctuation.separator.namespace.xml",
 				"meta.tag.xml"
@@ -223,7 +205,6 @@
 
 		//	JSON
 		{
-			"name": "Property name",
 			"scope": [
 				"support.type.property-name.json"
 			],
@@ -232,7 +213,6 @@
 			}
 		},
 		{
-			"name": "Property name begin-end",
 			"scope": [
 				"punctuation.support.type.property-name.begin.json",
 				"punctuation.support.type.property-name.end.json"
@@ -245,7 +225,6 @@
 
 		//	CSS
 		{
-			"name": "Attribute",
 			"scope": [
 				"entity.other.attribute-name.class.css",
 				"punctuation.definition.entity.css",
@@ -256,7 +235,6 @@
 			}
 		},
 		{
-			"name": "Attribute class",
 			"scope": [
 				"entity.name.tag.css"
 			],
@@ -265,7 +243,6 @@
 			}
 		},
 		{
-			"name": "Property",
 			"scope": [
 				"support.type.property-name.css",
 				"support.type.vendored.property-name.css"
@@ -275,7 +252,6 @@
 			}
 		},
 		{
-			"name": "Value",
 			"scope": [
 				"support.constant.property-value.css",
 				"constant.numeric.css",
@@ -289,7 +265,6 @@
 			}
 		},
 		{
-			"name": "Important",
 			"scope": [
 				"keyword.other.important.css"
 			],
@@ -299,7 +274,6 @@
 			}
 		},
 		{
-			"name": "Event",
 			"scope": [
 				"entity.other.attribute-name.pseudo-class.css",
 				"support.type.property-name.media.css"
