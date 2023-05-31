@@ -1,3 +1,5 @@
+include .env
+
 .PHONY: publish
 publish:
 
@@ -7,6 +9,5 @@ publish:
 	@echo "DONE!"
 
 	@echo  "Publishing to https://open-vsx.org/user-settings/extensions"
-	@read -p "open-vsx.org token: " TOKEN; \
-	npx ovsx publish -p $$TOKEN
+	npx ovsx publish -p ${OPEN_VSX_TOKEN}
 	@echo "DONE!"
